@@ -104,7 +104,7 @@ def job_search(username=None, password=None, title=None, city=None, state=None):
     return
 
 if __name__ == "__main__":
-    job_search(username='Jaseibert5@gmail.com', password='Change77', title='Data Scientist', city='Indianapolis', state='IN')
+    job_search(username='', password='', title='Data Scientist', city='Indianapolis', state='IN')
     t.sleep(6)
     df = get_all_jobs_on_page()
     df.head()
